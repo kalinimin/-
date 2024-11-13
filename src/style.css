@@ -8,7 +8,6 @@ body {
     background-color: #1E252B;
 }
 
-/* Container */
 .container {
     width: 1224px;
     display: flex;
@@ -23,7 +22,6 @@ body {
     line-height: 24px;
     text-align: left;
 }
-/* Header */
 header {
     margin: 26px 105px;
     width: 1224px;
@@ -83,8 +81,12 @@ nav a, .auth-buttons a {
     padding: 80px 20px;
 
     display: grid;
+    justify-content: space-between;
     grid-template-columns: 600px auto;
     grid-template-rows: auto auto;
+}
+.hero-media {
+    margin-right: 110px;
 }
 
 .search-block-title {
@@ -92,8 +94,9 @@ nav a, .auth-buttons a {
     color: #ffffff;
 }
 .search-block-text {
+    width: 487px;
     color: #b8b8b8;
-    margin: 10px 0 30px;
+    margin: 30px 0 60px;
 }
 .search-block-bar {
     display: flex;
@@ -112,13 +115,21 @@ nav a, .auth-buttons a {
     border: none;
     border-radius: 0 5px 5px 0;
 }
+
+.social-icons{
+    margin-left: 110px;
+    margin-top: 60px;
+}
 .social-icons a {
     width: 190px;
     color: #ffffff;
     margin: 0 10px;
     text-decoration: none;
 }
-
+.hero-img {
+    margin-right: 110px;
+    align-items: right;
+}
 /* Popular Tools Section */
 .popular-tools {
     text-align: center;
