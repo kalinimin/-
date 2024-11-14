@@ -8,6 +8,7 @@ body {
     background-color: #1E252B;
 }
 
+/* Container */
 .container {
     width: 1224px;
     display: flex;
@@ -22,6 +23,7 @@ body {
     line-height: 24px;
     text-align: left;
 }
+/* Header */
 header {
     margin: 26px 105px;
     width: 1224px;
@@ -75,6 +77,7 @@ nav a, .auth-buttons a {
     height: 354px;
     text-align: left;
     margin: 110px;
+    margin-bottom: 0;
 }
 
 .hero {
@@ -126,6 +129,26 @@ nav a, .auth-buttons a {
     margin: 0 10px;
     text-decoration: none;
 }
+.social-icons-facebook {
+    padding: 12px;
+    margin: 0 10px;
+    width: 58px;
+    height: 58px;
+}
+.social-icons-instagram{
+    padding: 11px;
+    margin: 0 10px;
+    width: 58px;
+    height: 58px;
+}
+.social-icons-twitter{
+    padding: 11px;
+    margin: 0 10px;
+    width: 58px;
+    height: 58px;
+}
+
+
 .hero-img {
     margin-right: 110px;
     align-items: right;
@@ -135,20 +158,31 @@ nav a, .auth-buttons a {
     text-align: center;
     padding: 60px 20px;
 }
-.popular-tools h2 {
-    font-size: 2em;
-    color: #ffffff;
+.popular-tools-title {
+    font-family: "Poppins", sans-serif;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 62.4px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.9);
 }
-.popular-tools p {
-    color: #b8b8b8;
-    margin: 10px 0 30px;
+.popular-tools-text {
+    color: rgba(255, 255, 255, 0.55);
+    width: 427px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    margin: 0px auto;
+    margin-top: 25px;
+    margin-bottom: 90px;
 }
-.tools-grid {
+.popular-tools-grid {
     padding: 0 90px;
     margin:0;
 }
 
-.tools-cards{
+.popular-tools-cards{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -157,20 +191,17 @@ nav a, .auth-buttons a {
     margin:0;
 }
 
-.tool-card-item {
+.popular-tool-card-item {
     display: block;
     align-self: baseline;
     width: 392px;
     height: 294px;
-    background-color: #242526;
+    background-color: rgba(30, 37, 43, 1);
     padding: 20px;
     border-radius: 10px;
     text-align: center;
     width: 392px;
-height: 294px;
-gap: 0px;
-opacity: 0px;
-
+    height: 294px;
 }
 .tool-card h3 {
     margin: 10px 0;
@@ -192,7 +223,7 @@ opacity: 0px;
     border-radius: 5px;
     cursor: pointer;
 }
-.load-more {
+.popular-tools-load-more {
     margin-top: 30px;
     padding: 10px 20px;
     background-color:rgba(255, 110, 48, 1);
